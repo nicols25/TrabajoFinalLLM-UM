@@ -1,10 +1,10 @@
-# 🧑‍⚖️ Asistente Legal LUC
+# Asistente Legal LUC
 
 Este proyecto consiste en la creación de un chatbot especializado en la Ley de Urgente Consideración (Ley N.º 19.889) de Uruguay, utilizando una arquitectura RAG combinada con un modelo LLM. El sistema permite hacer preguntas en lenguaje natural y obtener respuestas basadas exclusivamente en el contenido de la ley.
 
 ---
 
-## ⚙️ Requisitos previos
+## Requisitos previos
 
 - Tener Docker instalado en la máquina.
 
@@ -13,7 +13,7 @@ Docker se utiliza para empaquetar todo el sistema (modelo, API, frontend y depen
 
 ---
 
-## 🚀 Instrucciones para instalación y ejecución (vía Docker)
+## Instrucciones para instalación y ejecución (vía Docker)
 
 1. Clonar este repositorio:
 
@@ -40,7 +40,7 @@ http://localhost:8501
 
 ---
 
-## 🧪 Instrucciones para ejecución local (sin Docker)
+## Instrucciones para ejecución local (sin Docker)
 
 1. Ejecutar el script de configuración:
 
@@ -66,7 +66,7 @@ Todos los requisitos del entorno y las dependencias están en el archivo require
 
 ---
 
-## 🧠 Descripción técnica del sistema
+## Descripción técnica del sistema
 
 El sistema implementa una arquitectura RAG con los siguientes componentes:
 
@@ -85,7 +85,7 @@ El pipeline sigue este flujo:
 
 ---
 
-## 🔍 Justificación de decisiones técnicas
+## Justificación de decisiones técnicas
 
 - Parseo: Al tratarse de un documento legal en formato PDF, se utilizó la librería pdfminer.six para extraer el texto de forma automatizada.
 
@@ -101,7 +101,7 @@ El pipeline sigue este flujo:
 
 ---
 
-## 📚 Créditos y fuentes
+## Créditos y fuentes
 
 - Ley de Urgente Consideración (LUC):  
   https://www.impo.com.uy/bases/leyes/19889-2020
