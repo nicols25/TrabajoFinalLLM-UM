@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+transformers
+sentence-transformers
+faiss-cpu
+pdfminer.six
+numpy
+accelerate
+pydantic
+streamlit
